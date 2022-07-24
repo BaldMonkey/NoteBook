@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MainActivity布局文件 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    >
+    <!-- 自定义顶部工具条 -->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/light_grey"
+        >
+        <!-- 笔记标签 -->
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+        <!-- 待办标签 -->
+        <TextView
+            android:id="@+id/in_abeyance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/in_abeyance"
+            android:layout_gravity="center"
+            android:layout_marginStart="62dp"
+            android:textSize="20sp"
+            android:textColor="@color/dark_grey"
+            />
+        <!-- 回收站按钮 -->
+        <ImageView
+            android:id="@+id/recycle_bin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_delete_outline_24"
+            android:layout_gravity="end"
+            android:layout_marginEnd="25dp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- ViewPager2 用于盛放 Fragment -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/mainViewPager2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/light_grey"/>
+</LinearLayout>
+

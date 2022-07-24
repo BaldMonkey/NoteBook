@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这是添加按钮的背景图 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 填充颜色 -->
+    <solid android:color="@color/yellow"/>
+    <!-- 圆角 -->
+    <corners android:radius="500dp"/>
+</shape>

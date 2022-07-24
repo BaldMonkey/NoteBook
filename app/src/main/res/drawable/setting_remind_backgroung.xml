@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 添加或修改待办对话框 "设置提醒" 的背景 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 内边距 -->
+    <padding
+        android:left="7dp"
+        android:top="4dp"
+        android:right="8dp"
+        android:bottom="4dp"/>
+    <!-- 圆角 -->
+    <corners android:radius="15dp"/>
+    <!-- 设置填充颜色 -->
+    <solid android:color="@color/light_grey"/>
+</shape>

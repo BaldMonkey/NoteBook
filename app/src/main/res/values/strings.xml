@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">记事本</string>
+    <string name="note">笔记</string>
+    <string name="in_abeyance">待办</string>
+    <string name="search_note">搜索笔记</string>
+    <string name="search_in_abeyance">搜索待办</string>
+    <string name="note_title_edit">标题</string>
+    <string name="note_content_edit">内容</string>
+</resources>

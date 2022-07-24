@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RecycleBinActivity"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+    <!-- 自定义顶部工具栏 -->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/light_grey"
+        >
+        <ImageView
+            android:id="@+id/back_of_recycle_bin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:layout_gravity="start"
+            />
+        <!-- 标题 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="回收站"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- 盛放搜索框和回收笔记 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/light_grey"
+
+        >
+
+        <!-- 笔记搜索输入框 -->
+        <EditText
+            android:id="@+id/search_recycle_note_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_edittext"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawablePadding="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/search_note"
+            android:inputType="text"
+            android:singleLine="true"
+            android:imeOptions="actionSearch"
+            />
+
+        <!-- RecyclerView用于列出笔记条目信息 -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle_note_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/search_recycle_note_editText"
+            android:padding="12dp"
+            />
+    </RelativeLayout>
+</LinearLayout>

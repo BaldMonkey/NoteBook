@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这是笔记编辑界面的布局文件 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.EditActivity">
+
+    <!-- 顶部工具条 -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        >
+        <!-- 返回按钮 -->
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_baseline_arrow_back_ios_24"
+            android:layout_marginStart="25dp"
+            />
+        <!-- 完成按钮 -->
+        <ImageView
+            android:id="@+id/accomplish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/ic_accomplish_24" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- 创建时间 -->
+    <TextView
+        android:id="@+id/date_created"
+        android:layout_below="@id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="15sp"
+        android:textColor="@color/dark_grey"
+        />
+    <!-- 一个隐藏文本框存放传入的id -->
+    <TextView
+        android:id="@+id/note_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+    <!-- 标题编辑框 -->
+    <EditText
+        android:id="@+id/note_title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/note_title_edit"
+        android:inputType="text"
+        android:layout_below="@id/date_created"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:layout_marginStart="25dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:imeOptions="actionNext"
+        />
+
+    <!-- 滚动条，使得滑动没有那么卡顿 -->
+    <ScrollView
+        android:id="@+id/content_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@id/note_title_edit">
+
+    <!-- 内容编辑框 -->
+    <EditText
+        android:id="@+id/note_content_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="25dp"
+        android:padding="5dp"
+        android:background="@color/white"
+        android:gravity="top"
+        android:hint="@string/note_content_edit"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12314814814814815" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/add_button.xml" value="0.10260416666666666" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/alarm.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/check_box.xml" value="0.14722222222222223" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/check_circle.xml" value="0.12685185185185185" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/dialog_background.xml" value="0.18055555555555555" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_accomplish_24.xml" value="0.14583333333333334" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_add_24.xml" value="0.10260416666666666" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_add_36.xml" value="0.128125" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_add_circle_56.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_add_circle_44.xml" value="0.10989583333333333" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_add_circle_50.xml" value="0.10833333333333334" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_add_circle_70.xml" value="0.14722222222222223" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_alarm_24.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_alarm_off_24.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.115625" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_check_box_24.xml" value="0.14722222222222223" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_check_box_outline_blank_24.xml" value="0.14722222222222223" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_check_circle_24.xml" value="0.12685185185185185" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.128125" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_delete_outline_24.xml" value="0.128125" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_not_interested_24.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_playlist_add_check_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_radio_button_unchecked_24.xml" value="0.13425925925925927" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_search_15.xml" value="0.10833333333333334" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_search_25.xml" value="0.2128205128205128" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.14444444444444443" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_baseline_settings_25.xml" value="0.115625" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_launcher_background.xml" value="0.12314814814814815" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/ic_notes_24.xml" value="0.12314814814814815" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/item.xml" value="0.14583333333333334" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/my_editext.xml" value="0.11574074074074074" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/my_edittext.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/note_item.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/drawable/setting_remind_backgroung.xml" value="0.18055555555555555" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/font/font.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/activity_edit.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/activity_in_abeyance_dialog.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/activity_recycle_bin.xml" value="0.30833333333333335" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/fragment_in_abeyance.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/fragment_note.xml" value="0.22972972972972974" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/gray_view.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/in_abeyance_item.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/item_in_abeyance.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/item_note.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/note_item.xml" value="0.12135416666666667" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/view_toast.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/layout/window_add_in_abeyance.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.12314814814814815" />
+        <entry key="..\:/AndroidProjects/NoteBook/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.12314814814814815" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

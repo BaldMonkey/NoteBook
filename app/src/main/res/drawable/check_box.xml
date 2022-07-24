@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这是待办完成状态的图标 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_baseline_check_box_24" android:state_selected="true"/>
+    <item android:drawable="@drawable/ic_baseline_check_box_outline_blank_24"/>
+</selector>

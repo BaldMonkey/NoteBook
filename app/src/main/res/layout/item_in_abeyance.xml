@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这是待办的条目信息布局文件 -->
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp">
+
+    <!-- 总的容器 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item"
+        >
+        <!-- 完成状态图标的容器 -->
+        <LinearLayout
+            android:id="@+id/in_abeyance_status"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            >
+            <!-- 完成状态图标 -->
+            <ImageView
+                android:id="@+id/in_abeyance_check_box"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/check_box"
+                />
+        </LinearLayout>
+
+        <!-- 待办信息主要容器 -->
+        <LinearLayout
+            android:id="@+id/in_abeyance_main"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            >
+            <!-- 内容 -->
+            <TextView
+                android:id="@+id/in_abeyance_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+            <!-- 提醒日期 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+                <!-- 闹钟图标 -->
+                <ImageView
+                    android:id="@+id/in_abeyance_alarm"
+                    android:layout_width="15sp"
+                    android:layout_height="15sp"
+                    android:src="@drawable/alarm"
+                    android:clickable="false"
+                    android:layout_gravity="center_vertical"
+                    />
+                <!-- 提醒日期 -->
+                <TextView
+                    android:id="@+id/date_remind"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_marginStart="3dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

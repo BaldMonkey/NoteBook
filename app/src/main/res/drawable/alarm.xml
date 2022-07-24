@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这是是否设置了待办提醒的闹钟图标 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_baseline_alarm_24" android:state_selected="true"/>
+    <item android:drawable="@drawable/ic_baseline_alarm_off_24"/>
+</selector>

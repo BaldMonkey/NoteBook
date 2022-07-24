@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这是待办的 Fragment 布局 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.InAbeyanceFragment">
+
+    <!-- 待办搜索框 -->
+    <EditText
+        android:id="@+id/search_in_abeyance_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_edittext"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawablePadding="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/search_in_abeyance"
+        android:inputType="text"
+        />
+
+    <!-- 待办RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/in_abeyance_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_in_abeyance_editText"
+        android:padding="12dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <!-- 添加待办按钮 -->
+    <ImageView
+        android:id="@+id/add_in_abey_ance"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_add_36"
+        android:scaleType="center"
+        android:background="@drawable/add_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="top.baldmonkey.notebook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/note"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/note"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NoteBook">
+        <activity
+            android:name=".activity.RecycleBinActivity"
+            android:exported="false" />
+        <!-- 静态注册广播接收器 -->
+        <receiver
+            android:name=".util.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="top.baldmonkey.alarm" />
+            </intent-filter>
+        </receiver> <!-- 自定义的对话框 -->
+        <activity
+            android:name=".activity.InAbeyanceDialogActivity"
+            android:exported="false"
+            android:theme="@style/Theme.NoteBook.addWindow" /> <!-- 笔记的编辑界面 -->
+        <activity
+            android:name=".activity.EditActivity"
+            android:exported="false" /> <!-- 主 Activity -->
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 这是 NoteFragment 的布局文件 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.NoteFragment"
+    >
+
+    <!-- 笔记搜索输入框 -->
+    <EditText
+        android:id="@+id/search_note_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_edittext"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:drawablePadding="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="@string/search_note"
+        android:inputType="text"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"
+        />
+
+    <!-- RecyclerView用于列出笔记条目信息 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/note_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_note_editText"
+        android:padding="12dp"
+        />
+
+    <!-- 添加笔记按钮 -->
+    <ImageView
+        android:id="@+id/add_note"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_add_36"
+        android:scaleType="center"
+        android:background="@drawable/add_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="30dp"
+        />
+</RelativeLayout>
